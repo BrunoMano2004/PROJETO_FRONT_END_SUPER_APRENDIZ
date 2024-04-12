@@ -1,8 +1,15 @@
-html, body{
+body{
     margin:0;
     padding:0;
-    width:100%;
+    width:100vw;
     background-color: rgb(241, 234, 225);
+}
+
+html{
+    margin:0;
+    padding:0;
+    width:100vw;
+    display: grid;
 }
 
 div#topo{
@@ -23,10 +30,10 @@ p#textTopo{
 }
 
 div.clientes{
-    height: 800px;
-    width: 500px;
+    height: 500px;
+    width: 23%;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 80px;
     background-color: white;
     display: inline-block;
     border-radius: 3%;
@@ -150,12 +157,15 @@ p#textAbout{
     font-weight: bolder;
     text-align: justify;
     margin-left: 10%;
-    font-size: 20px;
+    font-size: 100%;
     color: rgb(228, 222, 222);
 }
 
 iframe#mapa{
     display: flex;
-    margin-left: 1200px;
+    margin-top: -25%;
+    margin-left: 60%;
+    height: 80%;
+    width: 30%;
     border-radius: 10px;
 }
